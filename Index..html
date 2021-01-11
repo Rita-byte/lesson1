@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>amazing_video</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<!-- <section class="showcase"> -->
+	<section class="showcase active">
+		<header>
+		<h2 class="logo"><img src="oba 280.jpg" width="200px" height="200px";></h2>
+		<!-- <div class="toggle"></div> -->
+		<div class="toggleactive"></div>
+		</header>
+
+		<video src="explore.mp4" autoplay muted loop></video>
+
+		<div class="overlay"></div>
+		<div class="text">
+			<h2>Welcome to St Rita's Crochet Institute</h2>
+			<h3>The only Art of Africa</h3>
+		
+			<p>Crochet is a creative and lucrative art work, which provides so much pleasure when engaged in it.Crochet was founded centuries ago and will continue to exist centuries to come because of it amazing designs, attractive apperance in the sense of its colors, which present people who put on crochet wears in a beautiul and adorable mannner. I believe soon crochet will become a hot cake job because of its lucrative. You don't need to feel depressed because St  <b>Rita's crochet Institute is the best place to learn all designs of crochet. </b> </p>
+		
+			<a href="#">Explore</a>
+		</div>
+		
+		<ul class="social">
+			<li><a href="#"><img src="facebook.png"></a></li>
+			<li><a href="#"><img src="instagram.png"></a></li>
+			<lis><a href="#"><img src="twitter.png"></a></li>
+		</ul>
+	</section>
+	<div class="menu">
+	<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">News</a></li>	
+	<li><a href="#">Destination</a></li>
+	<li><a href="#">Blog</a></li>	
+	<li><a href="#">Contact</a></li>	
+	</ul>
+</div>
+<script type="text/javascript">
+	const menuToggle = document.queryselector(".toggle");
+	const showcase = document.queryselector(".showcase");
+	menuToggle.addEventListener('click', () => {
+		menuToggle.classList.toggle("active")
+		showcase.classList.toggle("active")
+	});	
+</script>
+</body>
+</html> 
